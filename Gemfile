@@ -17,6 +17,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'paperclip', '~> 5.1'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'masonry-rails', '~> 0.2.4'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
